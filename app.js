@@ -13,7 +13,7 @@ function criaCartao(categoria, pergunta, resposta){
                         </div>
                 </div>`
 
-                let container = document.gerElementById('container')
+                let container = document.getElementById('container')
                 container.appendChild(cartao)
 
     //console.log(categoria, pergunta, resposta);
